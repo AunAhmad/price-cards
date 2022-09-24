@@ -1,7 +1,7 @@
 .cardlist__container {
     display: grid;
     grid-template-columns: 25% 30% 25%; 
-    gap: 7%;
+    gap: 10%;
    
 }
 
@@ -11,7 +11,7 @@
     .cardlist__container{
         display: grid;
         grid-template-columns: 40% 40%;
-        grid-gap: 10%;
+        grid-gap: 20%;
     }
 }
 
@@ -19,7 +19,7 @@
 @media  screen and (max-width: 600px) {
     .cardlist__container {
         display: grid;
-        grid-template-columns: 80%;
+        grid-template-columns: 1fr;
     }
     
 }
