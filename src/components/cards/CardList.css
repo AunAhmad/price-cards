@@ -1,0 +1,25 @@
+.cardlist__container {
+    display: grid;
+    grid-template-columns: 25% 30% 25%; 
+    gap: 7%;
+   
+}
+
+
+/* ----medium ----- */
+@media screen and (max-width:1024px) {
+    .cardlist__container{
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-gap: 10%;
+    }
+}
+
+/* -----small -----  */
+@media  screen and (max-width: 600px) {
+    .cardlist__container {
+        display: grid;
+        grid-template-columns: 80%;
+    }
+    
+}
